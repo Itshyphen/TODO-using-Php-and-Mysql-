@@ -1,0 +1,102 @@
+body{
+    background-image: url("img.jpg");
+}
+.heading{
+    width: auto;
+    margin: 30px auto;
+    margin-top: 0px;
+    text-align: center;
+    color: 	blue;
+    background-image: linear-gradient(peachpuff,white);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+form {
+    width: auto;
+    margin: 30px auto;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: black;
+}
+.container{
+    width: 50%;
+    height: auto;
+    border:2px solid blue;
+    background-image: linear-gradient(white,whitesmoke);
+    border-radius: 20px;
+}
+form p {
+    color: red;
+    margin: 0px;
+}
+.task_input {
+    width: 75%;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid black;
+}
+tr.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+.add_btn {
+    height: 39px;
+    background: purple;
+    color: 	white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+table {
+    width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+tr {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+    margin: 10px;
+}
+
+tr:hover {
+    background: #E9E9E9;
+}
+
+.task {
+    text-align: center;
+}
+
+.delete{
+    text-align: right;
+}
+.delete a{
+    color: white;
+    background: red;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.delete .done{
+    color: white;
+    background: lawngreen;
+    padding: 4px 8px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.done:focus{
+
+}
